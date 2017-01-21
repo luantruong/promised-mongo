@@ -1,5 +1,5 @@
 {
-  "name": "promised-mongo",
+  "name": "promised-mongodb",
   "description": "Easy to use module that implements the mongo api and supports promises",
   "keywords": [
     "mongo",
@@ -10,10 +10,10 @@
   ],
   "license": "MIT",
   "version": "1.2.0",
-  "repository": "git://github.com/gordonmleigh/promised-mongo.git",
-  "author": "Gordon Mackenzie-Leigh <gordon@stugo.co.uk>",
+  "repository": "https://github.com/luantruong/promised-mongodb.git",
+  "author": "Luan Truong <truongcongluan@gmail.com>",
   "contributors": [
-    "Gordon Mackenzie-Leigh <gordon@stugo.co.uk>"
+    "Truong Cong Luan <truongcongluan@gmail.com>"
   ],
   "dependencies": {
     "babel-runtime": "^5.5.5",
