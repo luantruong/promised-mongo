@@ -9,7 +9,7 @@
     "q"
   ],
   "license": "MIT",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "repository": "https://github.com/luantruong/promised-mongodb.git",
   "author": "Luan Truong <truongcongluan@gmail.com>",
   "contributors": [

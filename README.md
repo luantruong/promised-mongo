@@ -3,7 +3,7 @@
          align="right" alt="Promises/A+ logo" />
 </a>
 
-# promised-mongo
+# promised-mongodb
 
 A complete rewrite of [mongojs](https://github.com/mafintosh/mongojs) to support promises.  In a
 break with previous versions, this library only supports promises, and not callbacks.
@@ -11,9 +11,9 @@ break with previous versions, this library only supports promises, and not callb
 
 ## Install
 
-promised-mongo is available through [npm](http://npmjs.org):
+promised-mongodb is available through [npm](http://npmjs.org):
 
-	npm install promised-mongo
+	npm install promised-mongodb
 
 
 ## Compatability with previous versions
@@ -23,7 +23,7 @@ I no longer use [Q](https://github.com/kriskowal/q) for promises.  This means th
 call the `compatible()` function:
 
 ```js
-var pmongo = require('promised-mongo').compatible();
+var pmongo = require('promised-mongodb').compatible();
 ```
 
 Other than dropping support for callbacks, I have tried to make sure that the new library is
@@ -61,11 +61,11 @@ Watch this space for improvements.
 
 ## Usage
 
-Use promised-mongo just like mongojs, except that you use the returned promise instead of a
+Use promised-mongodb just like mongojs, except that you use the returned promise instead of a
 callback.
 
 ```js
-var pmongo = require('promised-mongo');
+var pmongo = require('promised-mongodb');
 var db = pmongo(connectionString, [collections]);
 ```
 
@@ -230,7 +230,7 @@ Note that you need to explicitly set the selection parameter in the `find` call.
 
 ## Database commands
 
-With promised-mongo you can run database commands just like with the mongo shell using `db.runCommand()`
+With promised-mongodb you can run database commands just like with the mongo shell using `db.runCommand()`
 
 ```js
 db.runCommand({ping:1}).then(function(res) {
@@ -250,7 +250,7 @@ db.things.runCommand('count').then(function(res) {
 
 ## Replication Sets
 
-Promised-mongo can also connect to a mongo replication set by providing a connection string with multiple hosts
+promised-mongodb can also connect to a mongo replication set by providing a connection string with multiple hosts
 
 ``` js
 var db = pmongo('rs-1.com,rs-2.com,rs-3.com/mydb?slaveOk=true', ['mycollection']);
