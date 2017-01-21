@@ -9,7 +9,7 @@
     "q"
   ],
   "license": "MIT",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "repository": "https://github.com/luantruong/promised-mongodb.git",
   "author": "Luan Truong <truongcongluan@gmail.com>",
   "contributors": [
@@ -34,6 +34,7 @@
     "grunt": "^0.4.5",
     "grunt-babel": "^5.0.1",
     "grunt-contrib-clean": "^0.6.0",
+    "grunt-dist": "0.0.6",
     "load-grunt-tasks": "^3.2.0"
   }
 }
