@@ -9,7 +9,7 @@
     "q"
   ],
   "license": "MIT",
-  "version": "1.2.2",
+  "version": "1.2.4",
   "repository": "https://github.com/luantruong/promised-mongodb.git",
   "author": "Luan Truong <truongcongluan@gmail.com>",
   "contributors": [
@@ -20,7 +20,7 @@
     "bluebird": "^2.9.27",
     "harmony-proxy": "0.0.2",
     "lodash": "^3.9.3",
-    "mongodb-core": "^2.1.8",
+    "mongodb-core": "^1.1.33",
     "parse-mongo-url": "^1.1.0",
     "readable-stream": "~1.1.8"
   },
